@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- QQ风格的颜色 -->
+    <color name="qq_blue">#54B4EF</color>
+    <color name="qq_blue_dark">#3498DB</color>
+    <color name="qq_bg_light">#F0F3F9</color>
+    <color name="qq_text_light">#BDBDBD</color>
+    <color name="qq_text_dark">#666666</color>
+    
+    <color name="primary">@color/qq_blue</color>
+    <color name="primary_dark">@color/qq_blue_dark</color>
+    <color name="accent">@color/qq_blue</color>
+    <color name="light_gray">@color/qq_bg_light</color>
+    <color name="gray">@color/qq_text_dark</color>
+    <color name="hint_color">@color/qq_text_light</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    
+    <!-- 修改助手消息背景色为更柔和的颜色 -->
+    <color name="user_message_bg">#E6F7FF</color>
+    <color name="assistant_message_bg">#FFFFFF</color>
+    <color name="message_text">#333333</color>
+    <color name="time_text">#757575</color>
+</resources>

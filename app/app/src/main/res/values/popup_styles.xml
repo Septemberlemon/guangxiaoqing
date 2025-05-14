@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义弹出菜单样式 -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- 自定义弹出菜单覆盖样式 -->
+    <style name="CustomPopupMenuOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+</resources>

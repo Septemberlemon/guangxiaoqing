@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 简单明确的样式，不引用任何其他样式 -->
+    <style name="SimpleTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#54B4EF</item>
+        <item name="colorPrimaryDark">#0091EA</item>
+        <item name="colorAccent">#54B4EF</item>
+        <item name="android:windowBackground">@color/qq_bg_light</item>
+        <item name="android:statusBarColor">@color/qq_bg_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/qq_bg_light</item>
+    </style>
+</resources>

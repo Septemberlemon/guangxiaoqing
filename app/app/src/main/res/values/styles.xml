@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 确保系统UI可见的样式 -->
+    <style name="FullScreenStyle">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 基础组件样式 -->
+    <style name="Widget.GuangXiaoQing" parent="android:Widget">
+        <!-- 基础样式属性 -->
+    </style>
+
+    <!-- 顶部导航栏样式 -->
+    <style name="Widget.GuangXiaoQing.TopNavigationBar" parent="Widget.GuangXiaoQing">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:translationZ">2dp</item>
+    </style>
+
+    <!-- 菜单按钮样式 -->
+    <style name="Widget.GuangXiaoQing.MenuButton" parent="Widget.GuangXiaoQing">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:contentDescription">更多选项</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- Toast动画样式 -->
+    <style name="ToastAnimation">
+        <item name="android:windowEnterAnimation">@anim/toast_enter</item>
+        <item name="android:windowExitAnimation">@anim/toast_exit</item>
+    </style>
+
+    <!-- 助手消息卡片样式 -->
+    <style name="AssistantMessageCardStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="cardBackgroundColor">@color/assistant_message_bg</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+</resources>

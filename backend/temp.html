@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>计算平方</title>
+</head>
+<body>
+<h1>计算 n 的平方</h1>
+<input type="number" id="number"/>
+<button onclick="getSquare()">计算</button>
+<p id="result"></p>
+
+<script>
+    async function getSquare() {
+        const n = document.getElementById('number').value;
+        const res = await fetch(`http://47.97.48.127:8000/square?n=${n}`);
+        const data = await res.json();
+        document.getElementById('result').innerText = `结果是：${data.result}`;
+    }
+</script>
+</body>
+</html>

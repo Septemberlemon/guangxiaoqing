@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">广小轻</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="reset_password">重置密码</string>
+    <string name="phone_number">手机号</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="verification_code">验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="no_account_register">没有账号？去注册</string>
+    <string name="back">返回</string>
+    <string name="chat">聊天</string>
+    <string name="input_phone_hint">请输入手机号</string>
+    <string name="input_password_hint">请输入密码</string>
+    <string name="input_verification_code_hint">请输入验证码</string>
+    <string name="set_password_hint">请设置密码</string>
+    <string name="confirm_password_hint">请确认密码</string>
+    <string name="reset_password_hint">请重置密码</string>
+    <string name="logout">退出登录</string>
+    <string name="change_password">修改密码</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="confirm_change">确认修改</string>
+</resources>
